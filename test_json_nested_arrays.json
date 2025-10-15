@@ -1,0 +1,56 @@
+{
+	"id": "89c84770-a1dddfsdds",
+	"name": "super name in json",
+	"values": [
+		{
+			"key": "server",
+			"value": "https://myserver.com",
+			"toto": {
+					"titi": "valeur_titi",
+					"tutu": "valeur_tutu",
+					"tete": true
+					}
+					,
+			"zozo":
+					[
+					{
+						"zizi":"valeur_zizi1",
+						"zuzu":"valeur_zuzu1"
+					}
+					,
+					{
+						"zizi":"valeur_zizi2",
+						"zuzu":"valeur_zuzu2"
+					}
+					,
+					{
+						"zizi":"valeur_zizi3",
+						"zuzu":"valeur_zuzu3"
+					}
+					]
+		},
+		{
+			"key": "content-url",
+			"value": "super_contend",
+			"enabled": true
+		},
+		{
+			"key": "site-name",
+			"value": "",
+			"enabled": true
+		},
+		{
+			"key": "admin-username",
+			"value": "bestadmin@admin.net",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "user-username",
+			"value": "",
+			"type": "secret",
+			"enabled": true
+		}
+	],
+	"_postman_variable_scope": "environment"
+}
